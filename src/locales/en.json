@@ -1,0 +1,269 @@
+{
+    "translation": {
+        "meta": {
+            "title": "Nathan Lopes | Developer & Entrepreneur"
+        },
+        "nav": {
+            "home": "Home",
+            "about": "About",
+            "skills": "Skills",
+            "projects": "Projects",
+            "experience": "Experience",
+            "education": "Education",
+            "contact": "Contact"
+        },
+        "hero": {
+            "title": "Tailored digital solutions for what your business really needs",
+            "subtitle": "I am a developer and entrepreneur. My focus is on understanding the client's challenge to deliver personalized digital solutions!",
+            "cta": "Discuss my project"
+        },
+        "about": {
+            "chip": "About Me",
+            "title": "Developer focused on creating tailored digital solutions",
+            "description_1": "I am Nathan Lopes, developer and entrepreneur. My work starts with understanding the client's need and <bold>seeking the best digital solution for each context.</bold> I prioritize clarity, organization, and functional solutions that make sense in the user's daily life.",
+            "description_2": "Additionally, I am interested in processes and business vision, which directly influences how I plan and develop each project.",
+            "expectations_title": "What you can expect from my work:",
+            "expectations_list": [
+                "Development of tailored digital solutions",
+                "Careful and strategic approach from the start",
+                "Clear communication and close follow-up",
+                "Focus on solving real problems, no rigid solutions"
+            ]
+        },
+        "hero_subtitle": {
+            "chip": "Skills",
+            "text": "Developer in training with a passion for technology and management. I have had contact with multiple languages and agile methodologies, always seeking innovative solutions to real problems."
+        },
+        "skills": {
+            "chip": "Competencies",
+            "title": "Experience & Learnings",
+            "subtitle": "A summary of technologies I have worked with and am interested in, along with the behavioral skills that guide my journey.",
+            "hard_title": "Tech & Tools",
+            "soft_title": "Soft Skills & Leadership",
+            "items": {
+                "languages": {
+                    "title": "Languages & Ecosystem",
+                    "desc": "Academic and practical experience with Python, C, Java, JavaScript/TypeScript, and Dart. Daily use of VS Code and Git."
+                },
+                "frontend": {
+                    "title": "Front-end & Mobile",
+                    "desc": "Interface building with React, Vue, and Flutter. Basic prototyping using Figma, Canva, and Affinity."
+                },
+                "backend": {
+                    "title": "Back-end & Data",
+                    "desc": "Experience with Spring, MySQL, PostgreSQL, and Firebase. Contact with Docker."
+                },
+                "interests": {
+                    "title": "Topics of Interest",
+                    "desc": "Introductory studies in Cybersecurity, Artificial Intelligence, and Automation. Participation in events like GO!RN."
+                },
+                "leadership": {
+                    "title": "Leadership & Management",
+                    "desc": "Project management and leadership in the Order of DeMolay. Organization, planning, and strategic vision."
+                },
+                "strategy": {
+                    "title": "Strategic Intelligence",
+                    "desc": "Adaptability, resilience, and critical thinking. Ability to make decisions under pressure and autonomous learning."
+                },
+                "collaboration": {
+                    "title": "Collaboration & Communication",
+                    "desc": "Empathy, active listening, and negotiation. Teamwork focused on conflict resolution and innovation."
+                }
+            }
+        },
+        "projects": {
+            "chip": "Projects",
+            "title": "Main Projects",
+            "view_all": "VIEW ALL PROJECTS",
+            "items": [
+                {
+                    "content": "Online scheduling system for an aesthetics clinic, simplifying schedule management. React Frontend and Backend integrated.",
+                    "author": "Aesthetics Scheduling",
+                    "role": "Fullstack System"
+                },
+                {
+                    "content": "Professional institutional website developed with a focus on performance and conversion, featuring a minimalist and responsive design.",
+                    "author": "Stay Salmar",
+                    "role": "Commercial Website"
+                },
+                {
+                    "content": "Participation in writing a book and developing a digital platform for works related to the Northeast and Sertão.",
+                    "author": "Northeast Platform",
+                    "role": "Extension & Culture"
+                },
+                {
+                    "content": "Interactive portfolio for a health professional, integrating blog and scheduling system in a welcoming interface.",
+                    "author": "Nutri Patrícia Monteiro",
+                    "role": "Landing Page"
+                }
+            ]
+        },
+        "experience": {
+            "chip": "Experience",
+            "title": "Professional Experience",
+            "items": [
+                {
+                    "content": "Managed inventory, organized orders, performed customer service, identified market trends, and negotiated with suppliers. Controlled finances and developed strategies to increase sales.",
+                    "author": "SILTHAN SPORTS",
+                    "role": "Founder & CEO",
+                    "period": "Mar/2023 – Oct/2023"
+                },
+                {
+                    "content": "Planned and executed personalized projects, created prospecting lists, performed active contacts, conducted meetings, and delivered solutions. Analyzed the client's scenario and developed strategies.",
+                    "author": "F1 RISING",
+                    "role": "Founder & CEO",
+                    "period": "May/2025 – Jul/2025"
+                },
+                {
+                    "content": "Assist in a school computer lab, offering technical support, equipment maintenance, and support to students with educational technology.",
+                    "author": "Computer Lab",
+                    "role": "Technical Assistant",
+                    "period": "Aug/2025 - Present"
+                },
+                {
+                    "content": "Active participation for several years, contributing to the development of young leaders and participating in community initiatives helping society.",
+                    "author": "Order of DeMolay",
+                    "role": "Volunteer Member",
+                    "period": "2019 - Present"
+                }
+            ]
+        },
+        "education": {
+            "title": "Academic Education",
+            "course": "Information Systems",
+            "university": "Federal University of Rio Grande do Norte (UFRN)",
+            "start": "Start: Feb 2024",
+            "end": "Forecast: Feb 2028",
+            "degree": "Bachelor's Degree",
+            "legend_completed": "Completed/Ongoing Courses",
+            "legend_future": "To be Taken",
+            "categories": {
+                "software": "Software Development",
+                "engineering": "Engineering & Infrastructure",
+                "math": "Math & Fundamentals",
+                "management": "Management, Humanities & Practice"
+            },
+            "subjects": {
+                "algo": "Algorithms and Programming Logic",
+                "prog": "Programming",
+                "poo1": "Object-Oriented Programming I",
+                "data_struct": "Data Structures",
+                "web": "Web Programming",
+                "db": "Databases",
+                "poo2": "Object-Oriented Programming II",
+                "db_project": "Database Design & Admin",
+                "visual": "Visual Programming",
+                "intro_info": "Introduction to Informatics",
+                "tgs": "General Systems Theory",
+                "fis": "Fundamentals of Info Systems",
+                "arch": "Computer Architecture",
+                "eng1": "Software Engineering I",
+                "so": "Operating Systems",
+                "eng2": "Software Engineering II",
+                "networks": "Computer Networks",
+                "pm": "Software Project Management",
+                "sad": "Decision Support Systems",
+                "math_fund": "Fundamentals of Mathematics",
+                "logic": "Logic",
+                "calc": "Differential and Integral Calculus",
+                "algebra": "Linear Algebra",
+                "prob": "Probability and Statistics",
+                "finance": "Financial Mathematics",
+                "tga": "General Theory of Administration",
+                "sci_method": "Scientific Methodology",
+                "text": "Reading and Text Production",
+                "osm": "Org., Systems and Methods",
+                "english": "Technical English",
+                "libras": "Libras (Sign Language)",
+                "entrepreneurship": "IT Entrepreneurship",
+                "accounting": "Accounting and Costs",
+                "ethics": "Ethics / Law / Philosophy",
+                "internship": "Internship & Final Project"
+            }
+        },
+        "certifications": {
+            "title": "Certifications & Courses",
+            "items": [
+                {
+                    "name": "Potência Tech iFood - Programming from Scratch",
+                    "issuer": "DIO / iFood",
+                    "date": "2023",
+                    "file": "/documents/bootcamp tech power ifood.pdf"
+                },
+                {
+                    "name": "Hackers do Bem - Cybersecurity",
+                    "issuer": "RNP",
+                    "date": "2024",
+                    "file": "/documents/Certificate - hackers do bem.pdf"
+                },
+                {
+                    "name": "Coletivo Jovem (Youth Collective)",
+                    "issuer": "Coca-Cola",
+                    "date": "2023",
+                    "file": "/documents/coca-cola-youth.pdf"
+                },
+                {
+                    "name": "Santander - Cybersecurity 2025",
+                    "issuer": "Santander / DIO",
+                    "date": "2024",
+                    "file": "/documents/cybersecurity santander.pdf"
+                },
+                {
+                    "name": "Working in Agile Teams",
+                    "issuer": "DIO",
+                    "date": "2023",
+                    "file": "/documents/equipesageis.pdf"
+                },
+                {
+                    "name": "Excel",
+                    "issuer": "Santander Open Academy",
+                    "date": "2023",
+                    "file": "/documents/excel.pdf"
+                },
+                {
+                    "name": "Leadership",
+                    "issuer": "Santander Open Academy",
+                    "date": "2023",
+                    "file": "/documents/leadership.pdf"
+                },
+                {
+                    "name": "Responsible prompting: maximize AI in your business",
+                    "issuer": "Microsoft / Foundarz",
+                    "date": "2023",
+                    "file": "/documents/prompt responsavel.pdf"
+                },
+                {
+                    "name": "Scrum Master Certification",
+                    "issuer": "DIO",
+                    "date": "2023",
+                    "file": "/documents/scrum certification.pdf"
+                }
+            ]
+        },
+        "footer": {
+            "desc": "Full-Stack Developer & Entrepreneur focused on creating innovative solutions.",
+            "rights": "All rights reserved."
+        },
+        "end_quote": {
+            "text": "\"Simplicity is the ultimate sophistication.\"",
+            "author": "— LEONARDO DA VINCI"
+        },
+        "projects_page": {
+            "back": "Back to Projects",
+            "title": "Project Archive",
+            "subtitle": "A complete collection of commercial works, academic projects, personal projects, and extensions.",
+            "table": {
+                "year": "Year",
+                "project": "Project",
+                "desc": "Description",
+                "link": "Link"
+            },
+            "sections": {
+                "commercial": "Real Projects",
+                "extension": "Extension Projects",
+                "academic": "Academic Projects",
+                "personal": "Study & Practice Projects"
+            }
+        }
+    }
+}
