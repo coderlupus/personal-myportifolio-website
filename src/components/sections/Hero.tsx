@@ -1,7 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
-import { cn } from "@/lib/utils";
-import { ArrowRight } from "lucide-react";
-import LottieAnimation from "@/components/ui/LottieAnimation";
+import React, { useEffect, useState } from "react";
+import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
@@ -9,7 +7,6 @@ const Hero = () => {
   const { t } = useTranslation();
 
   useEffect(() => {
-    // Check if mobile on mount and when window resizes
     const checkMobile = () => {
       setIsMobile(window.innerWidth < 768);
     };
@@ -21,7 +18,6 @@ const Hero = () => {
   }, []);
 
   useEffect(() => {
-    // Skip parallax on mobile
     if (isMobile) return;
 
     const handleScroll = () => {
@@ -53,43 +49,88 @@ const Hero = () => {
 
       <div className="container px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
+          
+          {/* Greeting */}
+          <p
+            className="text-gray-600 text-lg sm:text-xl mb-2 opacity-0 animate-fade-in"
+            style={{ animationDelay: "0.2s" }}
+          >
+            {t('hero.greeting')}
+          </p>
 
-
+          {/* Name */}
           <h1
-            className="section-title text-3xl sm:text-4xl lg:text-5xl xl:text-6xl leading-tight opacity-0 animate-fade-in"
+            className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold text-gray-900 leading-tight opacity-0 animate-fade-in"
             style={{ animationDelay: "0.3s" }}
           >
-            {t('hero.title')}
+            {t('hero.name')}
           </h1>
 
+          {/* Title/Role */}
+          <h2
+            className="text-xl sm:text-2xl lg:text-3xl font-medium text-pulse-600 mt-2 opacity-0 animate-fade-in"
+            style={{ animationDelay: "0.4s" }}
+          >
+            {t('hero.title')}
+          </h2>
+
+          {/* Subtitle */}
           <p
             style={{ animationDelay: "0.5s" }}
-            className="section-subtitle mt-3 sm:mt-6 mb-4 sm:mb-8 leading-relaxed opacity-0 animate-fade-in text-gray-950 font-normal text-base sm:text-lg text-center mx-auto max-w-2xl"
+            className="mt-4 sm:mt-6 mb-6 sm:mb-8 leading-relaxed opacity-0 animate-fade-in text-gray-700 font-normal text-base sm:text-lg text-center mx-auto max-w-2xl"
           >
             {t('hero.subtitle')}
           </p>
 
+          {/* Social Links */}
+          <div
+            className="flex items-center gap-4 mb-8 opacity-0 animate-fade-in"
+            style={{ animationDelay: "0.6s" }}
+          >
+            <a
+              href="https://github.com/coderlupus"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white/80 backdrop-blur-sm p-3 rounded-full text-gray-700 hover:text-white hover:bg-gray-900 transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-1"
+              aria-label="GitHub"
+            >
+              <Github size={22} />
+            </a>
+            <a
+              href="https://linkedin.com/in/nlopesr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white/80 backdrop-blur-sm p-3 rounded-full text-gray-700 hover:text-white hover:bg-[#0077B5] transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-1"
+              aria-label="LinkedIn"
+            >
+              <Linkedin size={22} />
+            </a>
+            <a
+              href="mailto:nathanlpsr@gmail.com"
+              className="bg-white/80 backdrop-blur-sm p-3 rounded-full text-gray-700 hover:text-white hover:bg-pulse-500 transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-1"
+              aria-label="Email"
+            >
+              <Mail size={22} />
+            </a>
+          </div>
+
+          {/* CTA Buttons */}
           <div
             className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-in justify-center w-full"
             style={{ animationDelay: "0.7s" }}
           >
             <a
-              href="#contact"
-              className="flex items-center justify-center group w-full sm:w-auto text-center"
-              style={{
-                backgroundColor: '#FE5C02',
-                borderRadius: '1440px',
-                boxSizing: 'border-box',
-                color: '#FFFFFF',
-                cursor: 'pointer',
-                fontSize: '14px',
-                lineHeight: '20px',
-                padding: '16px 24px',
-                border: '1px solid white',
-              }}
+              href="#projects"
+              className="flex items-center justify-center group w-full sm:w-auto text-center px-8 py-4 bg-gray-900 text-white rounded-full font-medium hover:bg-gray-800 transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-0.5"
             >
               {t('hero.cta')}
               <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
+            </a>
+            <a
+              href="#contact"
+              className="flex items-center justify-center group w-full sm:w-auto text-center px-8 py-4 bg-white/80 backdrop-blur-sm text-gray-900 rounded-full font-medium border-2 border-gray-200 hover:border-gray-900 hover:bg-white transition-all duration-300 shadow-md hover:shadow-lg"
+            >
+              {t('hero.cta_secondary')}
             </a>
           </div>
         </div>

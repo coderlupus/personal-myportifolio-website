@@ -13,21 +13,24 @@
             "contact": "Contato"
         },
         "hero": {
-            "title": "Soluções digitais sob medida para o que o seu negócio realmente precisa",
-            "subtitle": "Sou desenvolvedor e empreendedor. Tenho o foco em entender o desafio do cliente para entregar soluções digitais personalizadas!",
-            "cta": "Falar sobre meu projeto"
+            "greeting": "Olá, eu sou",
+            "name": "Nathan Lopes",
+            "title": "Desenvolvedor Full-Stack & Empreendedor",
+            "subtitle": "Estudante de Sistemas de Informação na UFRN, focado em criar soluções digitais que fazem a diferença.",
+            "cta": "Ver meus projetos",
+            "cta_secondary": "Entrar em contato"
         },
         "about": {
             "chip": "Sobre Mim",
-            "title": "Desenvolvedor focado em criar soluções digitais sob medida",
-            "description_1": "Sou Nathan Lopes, desenvolvedor e empreendedor. Meu trabalho começa entendendo a necessidade do cliente e <bold>buscando a melhor solução digital para cada contexto.</bold> Priorizo clareza, organização e soluções funcionais que façam sentido no dia a dia de quem usa.",
-            "description_2": "Além disso, tenho interesse em processos e visão de negócio, o que influencia diretamente a forma como planejo e desenvolvo cada projeto.",
-            "expectations_title": "O que você pode esperar do meu trabalho:",
+            "title": "Quem sou eu?",
+            "description_1": "Sou Nathan, estudante de Sistemas de Informação na UFRN. <bold>Sempre fui ligado em tecnologia, mas foi quando comecei a criar soluções que ajudam pessoas de verdade que me apaixonei por programar.</bold> Um momento marcante foi entregar meu primeiro website para uma cliente de Portugal.",
+            "description_2": "Fora do código, sou uma pessoa tranquila e adaptável. Gosto de esportes, academia e ler. Meu objetivo é me tornar referência na área e usar a tecnologia pra fazer a diferença.",
+            "expectations_title": "O que me move:",
             "expectations_list": [
-                "Desenvolvimento de soluções digitais sob medida",
-                "Abordagem cuidadosa e estratégica desde o início do projeto",
-                "Comunicação clara e acompanhamento próximo",
-                "Foco em resolver problemas reais, sem soluções engessadas"
+                "Criar soluções que impactam pessoas reais",
+                "Explorar novas tecnologias constantemente",
+                "Trabalhar em projetos que geram resultados",
+                "Colaborar e crescer junto com outros desenvolvedores"
             ]
         },
         "hero_subtitle": {
@@ -77,24 +80,45 @@
             "view_all": "VER TODOS OS PROJETOS",
             "items": [
                 {
-                    "content": "Sistema de agendamento online para clínica de estética, simplificando a gestão de horários. Frontend React e Backend integrados.",
+                    "content": "Sistema de agendamento online para clínica de estética, simplificando a gestão de horários.",
                     "author": "Agendamento Estética",
-                    "role": "Sistema Fullstack"
+                    "role": "Sistema Fullstack",
+                    "tech": [
+                        "React",
+                        "TypeScript",
+                        "Node.js",
+                        "PostgreSQL"
+                    ]
                 },
                 {
-                    "content": "Site institucional profissional desenvolvido com foco em performance e conversão, com design minimalista e responsivo.",
+                    "content": "Site institucional profissional com foco em performance e conversão, design minimalista e responsivo.",
                     "author": "Stay Salmar",
-                    "role": "Website Comercial"
+                    "role": "Website Comercial",
+                    "tech": [
+                        "React",
+                        "Tailwind CSS",
+                        "Vite"
+                    ]
                 },
                 {
-                    "content": "Participação na escrita de livro e desenvolvimento de plataforma digital para obras relacionadas ao Nordeste e Sertão.",
+                    "content": "Participação na escrita de livro e desenvolvimento de plataforma digital para obras sobre o Nordeste.",
                     "author": "Plataforma Nordeste",
-                    "role": "Extensão & Cultura"
+                    "role": "Extensão & Cultura",
+                    "tech": [
+                        "React",
+                        "Firebase",
+                        "PDF.js"
+                    ]
                 },
                 {
-                    "content": "Portfólio interativo para profissional da saúde, integrando blog e sistema de agendamento em uma interface acolhedora.",
+                    "content": "Portfólio interativo para profissional da saúde, com blog e sistema de agendamento integrados.",
                     "author": "Nutri Patrícia Monteiro",
-                    "role": "Landing Page"
+                    "role": "Landing Page",
+                    "tech": [
+                        "React",
+                        "TypeScript",
+                        "Tailwind CSS"
+                    ]
                 }
             ]
         },
@@ -241,7 +265,7 @@
             ]
         },
         "footer": {
-            "desc": "Desenvolvedor Full-Stack & Empreendedor focado em criar soluções inovadoras.",
+            "desc": "Desenvolvedor Full-Stack apaixonado por criar soluções digitais inovadoras.",
             "rights": "Todos os direitos reservados."
         },
         "end_quote": {

@@ -13,21 +13,24 @@
             "contact": "Contact"
         },
         "hero": {
-            "title": "Tailored digital solutions for what your business really needs",
-            "subtitle": "I am a developer and entrepreneur. My focus is on understanding the client's challenge to deliver personalized digital solutions!",
-            "cta": "Discuss my project"
+            "greeting": "Hi, I'm",
+            "name": "Nathan Lopes",
+            "title": "Full-Stack Developer & Entrepreneur",
+            "subtitle": "Information Systems student at UFRN, focused on creating digital solutions that make a difference.",
+            "cta": "View my projects",
+            "cta_secondary": "Get in touch"
         },
         "about": {
             "chip": "About Me",
-            "title": "Developer focused on creating tailored digital solutions",
-            "description_1": "I am Nathan Lopes, developer and entrepreneur. My work starts with understanding the client's need and <bold>seeking the best digital solution for each context.</bold> I prioritize clarity, organization, and functional solutions that make sense in the user's daily life.",
-            "description_2": "Additionally, I am interested in processes and business vision, which directly influences how I plan and develop each project.",
-            "expectations_title": "What you can expect from my work:",
+            "title": "Who am I?",
+            "description_1": "I'm Nathan, an Information Systems student at UFRN. <bold>I've always been into technology, but it was when I started creating solutions that actually help people that I fell in love with coding.</bold> A memorable moment was delivering my first website to a client from Portugal.",
+            "description_2": "Outside of code, I'm a calm and adaptable person. I enjoy sports, working out, and reading. My goal is to become a reference in the field and use technology to make a difference.",
+            "expectations_title": "What drives me:",
             "expectations_list": [
-                "Development of tailored digital solutions",
-                "Careful and strategic approach from the start",
-                "Clear communication and close follow-up",
-                "Focus on solving real problems, no rigid solutions"
+                "Creating solutions that impact real people",
+                "Constantly exploring new technologies",
+                "Working on projects that deliver results",
+                "Collaborating and growing with other developers"
             ]
         },
         "hero_subtitle": {
@@ -77,24 +80,45 @@
             "view_all": "VIEW ALL PROJECTS",
             "items": [
                 {
-                    "content": "Online scheduling system for an aesthetics clinic, simplifying schedule management. React Frontend and Backend integrated.",
+                    "content": "Online scheduling system for an aesthetics clinic, simplifying schedule management.",
                     "author": "Aesthetics Scheduling",
-                    "role": "Fullstack System"
+                    "role": "Fullstack System",
+                    "tech": [
+                        "React",
+                        "TypeScript",
+                        "Node.js",
+                        "PostgreSQL"
+                    ]
                 },
                 {
-                    "content": "Professional institutional website developed with a focus on performance and conversion, featuring a minimalist and responsive design.",
+                    "content": "Professional institutional website with focus on performance and conversion, minimalist and responsive design.",
                     "author": "Stay Salmar",
-                    "role": "Commercial Website"
+                    "role": "Commercial Website",
+                    "tech": [
+                        "React",
+                        "Tailwind CSS",
+                        "Vite"
+                    ]
                 },
                 {
-                    "content": "Participation in writing a book and developing a digital platform for works related to the Northeast and Sertão.",
+                    "content": "Participation in writing a book and developing a digital platform for works about the Northeast.",
                     "author": "Northeast Platform",
-                    "role": "Extension & Culture"
+                    "role": "Extension & Culture",
+                    "tech": [
+                        "React",
+                        "Firebase",
+                        "PDF.js"
+                    ]
                 },
                 {
-                    "content": "Interactive portfolio for a health professional, integrating blog and scheduling system in a welcoming interface.",
+                    "content": "Interactive portfolio for a health professional, with integrated blog and scheduling system.",
                     "author": "Nutri Patrícia Monteiro",
-                    "role": "Landing Page"
+                    "role": "Landing Page",
+                    "tech": [
+                        "React",
+                        "TypeScript",
+                        "Tailwind CSS"
+                    ]
                 }
             ]
         },
@@ -241,7 +265,7 @@
             ]
         },
         "footer": {
-            "desc": "Full-Stack Developer & Entrepreneur focused on creating innovative solutions.",
+            "desc": "Full-Stack Developer passionate about creating innovative digital solutions.",
             "rights": "All rights reserved."
         },
         "end_quote": {
