@@ -1,6 +1,8 @@
 # 🚀 Personal Portfolio Website
 
-A modern, high-performance portfolio website built to showcase skills, projects, and professional experience. Designed with a focus on aesthetics, responsiveness, and user experience.
+> **⚠️ NOTE:** This repository is proprietary. Unauthorized use, copying, or redistribution of its content is strictly prohibited. All rights reserved to Nathan Lopes.
+
+A modern, high-performance portfolio website built to showcase skills, projects, and professional experience.
 
 ## ✨ Features
 
@@ -24,9 +26,9 @@ This project leverages the latest web technologies:
 - **Forms**: [React Hook Form](https://react-hook-form.com/) + [Zod](https://zod.dev/)
 - **Charts**: [Recharts](https://recharts.org/)
 
-## 🚀 Getting Started
+## 🛠️ Local Development (Private)
 
-Follow these steps to set up the project locally on your machine.
+Instructions for setting up the project locally for authorized development.
 
 ### Prerequisites
 
@@ -75,17 +77,10 @@ src/
 └── App.tsx             # Main application entry point
 ```
 
-## 🤝 Contributing
-
-Contributions are welcome! If you'd like to improve this portfolio:
-1. Fork the project.
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
-4. Push to the branch (`git push origin feature/AmazingFeature`).
-5. Open a Pull Request.
-
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Copyright (c) 2026 Nathan Lopes - **All Rights Reserved**.
+
+Unauthorized copying, modification, distribution, or use of this software via any medium is strictly prohibited. This project is proprietary and confidential.
 
 
